@@ -1,0 +1,116 @@
+\documentclass[12pt,Times]{report}
+\title{RFID Toll Collection System}
+\author{Yogesh Shaligram}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+
+
+
+
+
+\section{Hardware testing}
+For all kinds of electronics project it is compulsion to verify the ratings and test the components used in the project. This test is generally taken before mounting the components on board. This is called pre mount testing. In the similar way after mounting the components on board testing is necessary. Hence this is called hardware testing. The points everyone should cover in such type of testing are mentioned below and we have done this testing, the result is also mentioned.
+\subsection{PCB layout testing}
+\begin{table}[htbp]
+	\caption{PCB layout testing}
+	\label{tab:PCB layout testing}
+	 \begin{tabular}{|c|c|c|} 
+ \hline
+ \textbf{Sr. No} &\textbf{Test Name} & \textbf{Result}\\ [0.5ex] 
+ \hline
+1& Component side testing& Ok\\
+\hline
+2&Drilling hole match test& Ok\\
+\hline
+3&Layout track match&Some tracks were short,\\ but corrected by re-soldering.
+\hline
+\end{tabular}	 
+\end{table}
+\subsection{Component testing}
+\begin{table}[htbp]
+	\caption{Component testing}
+	\label{tab:Component testing}
+	 \begin{tabular}{|c|c|c|} 
+ \hline
+ \textbf{Sr. No} &\textbf{Test Name} & \textbf{Result}\\ [0.5ex] 
+ \hline
+1& All Components Value and ratings& Ok\\
+\hline
+2&Part number and make test& Ok\\
+\hline
+\end{tabular}	 
+\end{table}
+\newpage
+\subsection{Power Supply testing}
+\begin{table}[htbp]
+	\caption{Power Supply testing}
+	\label{tab:Power Supply testing}
+	 \begin{tabular}{|c|c|c|} 
+ \hline
+ \textbf{Sr. No} &\textbf{Test Name} & \textbf{Result}\\ [0.5ex] 
+ \hline
+1& All Components mounted correctly& OK\\
+\hline
+2&Power switch is in OFF condition& OK\\
+\hline
+3&When adaptor connected 7805 heat test& OK,not heated\\
+\hline
+4&When switch is ON,Red LED glow&OK\\
+\hline
+5&12V is measured before regulator 7805&OK\\
+\hline
+6&5V measured after regulator 7805& OK\\
+\hline
+7&After 20 minutes, repeat all above tests& All OK
+\hline
+\end{tabular}	 
+\end{table}
+\newpage
+\subsection{Overall Hardware testing}
+Generally this test is performed after mounting each and every component on PCB at their proper place. This is overall hardware testing. Points we have covered mentioned below.
+\begin{table}[htbp]
+	\caption{Overall Hardware testing}
+	\label{tab:Overall Hardware testing}
+	 \begin{tabular}{|c|c|c|} 
+ \hline
+ \textbf{Sr. No} &\textbf{Test Name} & \textbf{Result}\\ [0.5ex] 
+ \hline
+1& All Components placements testing& OK, Placed correctly\\
+\hline
+2&All soldering joints testing& All solder joints OK\\
+\hline
+3&5V and 12V at all points without microcontroller and without LCD&Tested OK\\
+\hline
+4&5V and 12V at all points with microcontroller and with LCD&Tested OK\\
+\hline
+5&5V supply measured at microcontroller pin&OK\\
+\hline
+6&5V supply measured at LCD pin& OK\\
+\hline
+7&Buzzer sound testing& All OK\\
+\hline
+8&External hardware if any connected and test operation&OK
+\end{tabular}	 
+\end{table}
+\newpage
+\subsection{Basic Hardware rough testing}
+It is basically simple overall project hardware environmental testing. It includes following point which we have covered.
+\begin{table}[htbp]
+	\caption{Overall Hardware testing}
+	\label{tab:Overall Hardware testing}
+	 \begin{tabular}{|c|c|c|c|} 
+ \hline
+ \textbf{Sr. No} &\textbf{Test Name} & \textbf{Result}\\ [0.5ex] 
+ \hline
+1& Vibration testing&Overall Project hardware is kept on vibrator machine\\ for 10 minutes, and then functionality tested& OK\\
+\hline
+2&Low temperature testing&Hardware with ON condition\\ put in a cold storage below 15 degree Celsius& All solder joints OK\\
+\hline
+3&High temperature testing&Hardware with ON condition put\\ in an oven up to 80 degree Celsius&Tested OK\\
+\hline
+4&EMI/EMC testing&Magnetic interference and conductance test&OK\\
+\hline
+
+\end{tabular}	 
+\end{table}
